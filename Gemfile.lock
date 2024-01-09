@@ -128,7 +128,6 @@ GEM
     marcel (1.0.2)
     matrix (0.4.2)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
     minitest (5.20.0)
     msgpack (1.7.2)
     mutex_m (0.2.0)
@@ -142,8 +141,7 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.7.0)
-    nokogiri (1.15.5)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.15.5-x86_64-linux)
       racc (~> 1.4)
     psych (5.1.2)
       stringio
@@ -252,14 +250,14 @@ DEPENDENCIES
   redis (>= 4.0.1)
   selenium-webdriver
   sprockets-rails
-  sqlite3
+  sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
   tzinfo-data
   web-console
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.0.4p208
 
 BUNDLED WITH
    2.4.19
