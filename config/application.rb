@@ -23,6 +23,6 @@ module CloudinaryTestUploadFile
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.hosts << "484d-46-205-209-255.ngrok-free.app"
+    config.hosts << "https://cloudinary-test-upload-file.onrender.com"
   end
 end
